@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: multi-cloud-devsecops-app
+    ports:
+      - "5000:5000"

@@ -1,0 +1,10 @@
+scan:
+  security-checks:
+    - vuln
+    - secret
+
+severity:
+  - HIGH
+  - CRITICAL
+
+ignore-unfixed: true
